@@ -1,7 +1,7 @@
 class Weather {
     constructor(city) {
         this.city = city;
-        this.key = 'b05a100c6e6c27146f81ad75c338bae4';
+        this.key = '';
     }
 
     async getWeather() {

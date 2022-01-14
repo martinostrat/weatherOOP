@@ -9,10 +9,10 @@ form.addEventListener('submit', changeCity);
 function changeCity(event) {
     const cityName = document.querySelector('#city-name').value;
     weather.changeCity(cityName);
+    ls.setCity(cityName);
     getWeather();
     document.querySelector('#city-name').value = '';
     event.preventDefault();
-    ls.setCity(cityName);
 }
 
 function getWeather() {
