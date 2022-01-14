@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather OOP</title>
+</head>
+<body>
+    <div id="weather">
+        <div id="description"></div>
+        <div id="temp"></div>
+        <div id="location"></div>
+    </div>
+    <br><br><br>
+    <div>
+        <form id="change-city">
+            <label for="#city-name">Sisesta linna nimi:</label>
+            <input type="text" id="city-name">
+            <input type="submit" value="Otsi">
+        </form>
+    </div>
+
+    <script src="classes/LS.js"></script>
+    <script src="classes/Weather.js"></script>
+    <script src="classes/UI.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
